@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Group Chat</title>
+  </head>
+  <body>
+    <div class="fixedBar">
+      <div class="statusBar">
+        <div class="statusBar__column">
+          <i class="fas fa-signal status-margin"></i>
+          <span class="statusBar__serviceProviderName status-margin"
+            >ElfTel 5G</span
+          >
+          <i class="fas fa-wifi status-margin"></i>
+        </div>
+        <div class="statusBar__column">
+          <span class="statusBar__time">15:20</span>
+        </div>
+        <div class="statusBar__column">
+          <i class="fas fa-ring status-margin"></i>
+          <i class="fas fa-bell status-margin"></i>
+          <span class="statusBar__batteryLevel status-margin">90%</span>
+          <i class="fas fa-battery-full status-margin"></i>
+        </div>
+      </div>
+      <header class="chat__header">
+        <div class="chat__header__column">
+          <a href="chats.html"> <i class="fas fa-chevron-left"></i></a>
+        </div>
+        <div class="chat__header__column">
+          <span class="chat__title">Group (22)</span>
+        </div>
+        <div class="chat__header__column">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars chat__header-bars"></i>
+        </div>
+      </header>
+      <div class="announcement">
+        <div class="announcement__column">
+          <i class="fas fa-bullhorn"></i>
+          <p class="announcement__announcement">
+            Free food in conference room 53!
+          </p>
+        </div>
+        <div class="announcement__column">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <li class="incoming-Message message">
+          <img src="images/elrond.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Elrond</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">
+                [Reminder][TOP SECRET]<br />
+                Hey, folks. This is a quick reminder for our Secret Meeting.
+                <br />
+                Tomorrow morning 08:00AM.<br />
+                Rivendel Council.<br />
+                Please don't be late. There are tons of things we need to
+                discuss about how to save Middle Earth from Sauron.
+              </span>
+              <span class="incoming-message__timestamp">14:58</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/merry.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Merry</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">Can I and pippin go? </span>
+              <span class="incoming-message__timestamp">15:00</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/pippin.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Pippin</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">Yeah, we deserve it!</span>
+              <span class="incoming-message__timestamp">15:00</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="common-Message">
+          <div class="common__bubble">
+            <span class="common__text">Merry is removed from this chat</span>
+          </div>
+        </li>
+        <li class="common-Message">
+          <div class="common__bubble">
+            <span class="common__text">Pippin is removed from this chat</span>
+          </div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/elrond.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Elrond</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">Who invited them here?</span>
+              <span class="incoming-message__timestamp">15:00</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="sent-Message message">
+          <div class="sent__column"></div>
+          <div class="sent__column">
+            <div class="sent__bubble bubble">
+              <span class="sent-message__timestamp">15:06</span>
+              <span class="sent__text">sorry...</span>
+            </div>
+          </div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/elrond.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Elrond</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text"
+                >Please take this seriously, Mr. Beggins.</span
+              >
+              <span class="incoming-message__timestamp">15:06</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/sauron.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Sauron</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">🖐 hello!</span>
+              <span class="incoming-message__timestamp">15:09</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/elrond.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Elrond</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">what the f</span>
+              <span class="incoming-message__timestamp">15:10</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="common-Message">
+          <div class="common__bubble">
+            <span class="common__text">Sauron is removed from this chat</span>
+          </div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/gandalf.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Gandalf</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">*sigh</span>
+              <span class="incoming-message__timestamp">15:10</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+        <li class="sent-Message message">
+          <div class="sent__column"></div>
+          <div class="sent__column">
+            <div class="sent__bubble bubble">
+              <span class="sent-message__timestamp">15:10</span>
+              <span class="sent__text">😨</span>
+            </div>
+          </div>
+        </li>
+        <li class="incoming-Message message">
+          <img src="images/boromir.jpg" alt="" class="message-userImg" />
+          <div class="incoming__column">
+            <span class="incoming__name">Boromir</span>
+            <div class="incoming__bubble bubble">
+              <span class="incoming__text">this is so secret</span>
+              <span class="incoming-message__timestamp">15:17</span>
+            </div>
+          </div>
+          <div class="incoming__column"></div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="writeChat">
+      <div class="writeChat__input">
+        <input type="text" placeholder="Send message" class="writeChat-input" />
+        <div class="writeChat__leftIcon">
+          <i class="fas fa-plus-square"></i>
+        </div>
+        <div class="writeChat__rightIcons">
+          <i class="fas fa-smile"></i>
+          <i class="fas fa-hashtag writeChat-hashtag"></i>
+        </div>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller!</span>
+    </div>
+  </body>
+</html>

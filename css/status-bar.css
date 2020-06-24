@@ -1,0 +1,12 @@
+.statusBar {
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.status-margin {
+  margin: 0 2px 0 2px;
+}

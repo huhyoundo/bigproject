@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  background-color :#04b6e2;;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(80px);
+  animation: showNavBar 0.2s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45px;
+}
+
+.nav__list-link-relative {
+  position: relative;
+}
+
+.nav__unread {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background-color: red;
+  color: #f7f7f7;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}

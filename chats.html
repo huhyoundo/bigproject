@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chats</title>
+  </head>
+  <body>
+    <div class="fixedBar">
+      <div class="statusBar">
+        <div class="statusBar__column">
+          <i class="fas fa-signal status-margin"></i>
+          <span class="statusBar__serviceProviderName status-margin"
+            >ElfTel 5G</span
+          >
+          <i class="fas fa-wifi status-margin"></i>
+        </div>
+        <div class="statusBar__column">
+          <span class="statusBar__time">15:20</span>
+        </div>
+        <div class="statusBar__column">
+          <i class="fas fa-ring status-margin"></i>
+          <i class="fas fa-bell status-margin"></i>
+          <span class="statusBar__batteryLevel status-margin">90%</span>
+          <i class="fas fa-battery-full status-margin"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__column">
+          <span class="header__title">Chats</span>
+        </div>
+        <div class="header__column">
+          <i class="fas fa-search header-margin"></i>
+          <i class="far fa-comment header-margin chats__commentIcon"></i>
+          <i class="fas fa-plus-circle header-margin chats__plusIcon"></i>
+          <i class="fas fa-music header-margin"></i>
+          <i class="fas fa-cog header-margin"></i>
+        </div>
+      </header>
+    </div>
+
+    <main class="chats">
+      <div class="chats__advertisement">
+        <div class="chats__advertisement__texts">
+          <span class="chats__ad-oakenshield">Oakenshield?</span>
+          <span class="chats__ad-no">No!</span>
+          <span class="chats__ad-weAre">We are</span>
+          <div class="chats__ad-oakenLoan">Oaken Loan!</div>
+          <span class="chats__ad-yourMoney">Your money is waiting for you</span>
+          <span class="chats__ad-clickGet">Click and get your money</span>
+          <span class="chats__ad-now">NOW</span>
+          <span class="chats__ad-interest">interest rate 20%</span>
+        </div>
+      </div>
+      <ul class="chats__chats">
+        <li class="chats__chatBox">
+          <a href="chat.html" class="groupChat-link">
+            <div class="chatBox__column">
+              <div class="chatBox-imageBox">
+                <img src="images/elrond.jpg" alt="" class="groupChat-image" />
+                <img src="images/aragorn.jpg" alt="" class="groupChat-image" />
+                <img src="images/gandalf.jpg" alt="" class="groupChat-image" />
+                <img src="images/legolas.jpg" alt="" class="groupChat-image" />
+              </div>
+              <div class="chatBox__texts">
+                <span class="chatBox__title"
+                  >Elrond, Aragorn, Gandalf, Legolas... 22</span
+                ><span class="chatBox__text">[Reminder][TOP SECRET]... </span>
+              </div>
+            </div>
+            <div class="chatBox__column">
+              <span class="chatBox__date">15:17</span>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chatBox">
+          <div class="chatBox__column">
+            <img
+              src="images/samwise-gamgee.jpg"
+              alt=""
+              class="chatBox-imageBox"
+            />
+            <div class="chatBox__texts">
+              <span class="chatBox__title">Sam</span
+              ><span class="chatBox__text">lol</span>
+            </div>
+          </div>
+          <div class="chatBox__column">
+            <span class="chatBox__date">15:15</span>
+          </div>
+        </li>
+        <li class="chats__chatBox">
+          <div class="chatBox__column">
+            <img src="images/sauron.jpg" alt="" class="chatBox-imageBox" />
+            <div class="chatBox__texts">
+              <span class="chatBox__title">Sauron</span
+              ><span class="chatBox__text"
+                >Mr. Beggins. Please contact me. You are illegally occupying one
+                of my belongings...</span
+              >
+              <div class="chatBox__unread">24</div>
+            </div>
+          </div>
+          <div class="chatBox__column">
+            <span class="chatBox__date">12:01</span>
+          </div>
+        </li>
+        <li class="chats__chatBox">
+          <div class="chatBox__column">
+            <img src="images/nazgul.jpg" alt="" class="chatBox-imageBox" />
+            <div class="chatBox__texts">
+              <span class="chatBox__title">Nazgul</span
+              ><span class="chatBox__text"
+                >we're all soaked, man... it ain't cool.</span
+              >
+              <div class="chatBox__unread">65</div>
+            </div>
+          </div>
+          <div class="chatBox__column">
+            <span class="chatBox__date">yesterday</span>
+          </div>
+        </li>
+        <li class="chats__chatBox">
+          <div class="chatBox__column">
+            <img src="images/gandalf.jpg" alt="" class="chatBox-imageBox" />
+            <div class="chatBox__texts">
+              <span class="chatBox__title">Gandalf</span
+              ><span class="chatBox__text"
+                >Do you wanna go for an icecream?</span
+              >
+            </div>
+          </div>
+          <div class="chatBox__column">
+            <span class="chatBox__date">yesterday</span>
+          </div>
+        </li>
+        <li class="chats__chatBox">
+          <div class="chatBox__column">
+            <img src="images/arwen.jpg" alt="" class="chatBox-imageBox" />
+            <div class="chatBox__texts">
+              <span class="chatBox__title">Arwen</span
+              ><span class="chatBox__text"
+                >hey it's frodo. wanna go out sometime?</span
+              >
+            </div>
+          </div>
+          <div class="chatBox__column">
+            <span class="chatBox__date">3 days ago</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link"
+            ><i class="far fa-calendar-minus"></i></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="chats.html" class="nav__list-link nav__list-link-relative"
+            ><i class="fas fa-comment"></i>
+            <div class="nav__unread">89</div></a
+          >
+        </li>
+        <li class="nav__list-item">
+          <a href="hashtag.html" class="nav__list-link"
+            ><i class="far fa-grin-stars"></i></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller!</span>
+    </div>
+  </body>
+</html>
